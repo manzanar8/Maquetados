@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+nav {
+    position: absolute;
+    top: 1em;
+    background-color: #338f82 !important;
+    z-index: 20;
+}
+
+.navPersonalize {
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 12px;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.b-1 {
+    background-image: url('../assets/images/cupcake-thank.jpg');
+}
+
+.b-2 {
+    background-image: url('../assets/images/cakes.jpg');
+}
+
+.b-3 {
+    background-image: url('../assets/images/chocolate.jpg');
+}
+
+.b-4 {
+    background-image: url('../assets/images/cookies.jpg');
+}
+
+.background {
+    background-attachment: inherit;
+    background-size: cover;
+    background-position-x: 50%;
+}
+
+.hg {
+    height: 400px;
+    border-right: 2px dashed white;
+    font-family: 'Dancing Script', cursive;
+}
+
+.text-p {
+    position: relative;
+    top: 65%;
+    text-align: center;
+    font-size: 40px;
+    background: #ffffffa1;
+    height: 125px;
+    border-radius: 7px;
+    color: #58312a;
+}
+
+.border {
+    border-radius: 10px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.title-snd {
+    font-size: 71px;
+    padding-top: 14px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.h-snd {
+    padding-top: 1em;
+}
