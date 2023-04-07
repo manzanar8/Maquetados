@@ -2,7 +2,7 @@
 nav {
     position: absolute;
     top: 1em;
-    background-color: #338f82 !important;
+    background-color: #a5744c !important;
     z-index: 20;
 }
 
@@ -20,16 +20,8 @@ nav {
     color: white !important;
 }
 
-.b-1 {
-    background-image: url('../assets/images/cupcake-thank.jpg');
-}
-
-.b-2 {
-    background-image: url('../assets/images/cakes.jpg');
-}
-
-.b-3 {
-    background-image: url('../assets/images/chocolate.jpg');
+.b-ballon {
+    background-image: url('../assets/images/ballons.png');
 }
 
 .b-4 {
@@ -58,10 +50,10 @@ nav {
     top: 65%;
     text-align: center;
     font-size: 40px;
-    background: #ffffffa1;
+    background: #5b4d4ccc;
     height: 125px;
     border-radius: 7px;
-    color: #58312a;
+    color: #ffb0a2;
 }
 
 .border {
@@ -88,17 +80,16 @@ nav {
     padding: 10px;
 }
 
+.location,
 .date {
     font-size: 12px;
-}
-
-.location {
-    font-size: 20px;
+    color: #9b9b9b;
 }
 
 .title {
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
+    color: #2e2220;
 }
 
 .navStyle {
@@ -122,4 +113,15 @@ nav {
 
 .cardEvent {
     padding: 0px !important;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.notice {
+    font-size: 18px;
+    text-align: center;
+    padding: 3em;
+    ;
 }
