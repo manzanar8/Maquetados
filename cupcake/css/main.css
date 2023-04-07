@@ -36,6 +36,11 @@ nav {
     background-image: url('../assets/images/cookies.jpg');
 }
 
+.b-5 {
+    height: 10em;
+    background-image: url('../assets/images/taller.jpg');
+}
+
 .background {
     background-attachment: inherit;
     background-size: cover;
@@ -94,4 +99,27 @@ nav {
 .title {
     font-size: 30px;
     text-align: center;
+}
+
+.navStyle {
+    position: absolute;
+    top: 0;
+}
+
+.titleEvents {
+    background: #c1ac9e96;
+    color: white;
+    margin: 10px 0px 10px;
+    -webkit-box-shadow: -7px -5px 41px -16px rgba(56, 56, 56, 1);
+    -moz-box-shadow: -7px -5px 41px -16px rgba(56, 56, 56, 1);
+    box-shadow: -7px -5px 41px -16px rgba(56, 56, 56, 1);
+}
+
+.form {
+    padding: 2em;
+    border: 1px solid #e2e2e2;
+}
+
+.cardEvent {
+    padding: 0px !important;
 }
