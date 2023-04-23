@@ -1,3 +1,13 @@
+/*
+ * Created on 22/4/2023
+ *
+ * Copyright (c) Ana Manzanor
+ *
+ * Description: Proyectos Básicos Maquetado
+ *
+ * By: Ana Manzano 
+ */
+
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 nav {
     position: absolute;
@@ -109,6 +119,8 @@ nav {
 .form {
     padding: 2em;
     border: 1px solid #e2e2e2;
+    margin: 2em;
+    border-radius: 5px;
 }
 
 .cardEvent {
@@ -124,4 +136,26 @@ nav {
     text-align: center;
     padding: 3em;
     ;
+}
+
+.btn-send {
+    text-align: right;
+}
+
+.footer {
+    padding: 2em;
+    background: #d1d1d1;
+}
+
+a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #ab847d !important;
+}
+
+ul {
+    list-style-type: none !important;
 }

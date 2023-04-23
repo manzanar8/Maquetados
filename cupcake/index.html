@@ -1,3 +1,13 @@
+<!--
+ Created on 22/4/2023
+
+ Copyright (c) Ana Manzanor
+
+ Description: Proyectos Básicos Maquetado
+
+ By: Ana Manzano 
+-->
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -17,16 +27,16 @@
             <div class="row">
                 <nav class="navbar navbar-expand-lg navStyle">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#">Navbar</a>
+                        <a class="navbar-brand" href="#">Cupcake</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                             <div class="navbar-nav">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                <a class="nav-link" href="#">Features</a>
-                                <a class="nav-link" href="#">Pricing</a>
-                                <a class="nav-link disabled">Disabled</a>
+                                <a class="nav-link" href="#">Products</a>
+                                <a class="nav-link" href="#">Events</a>
+                                <a class="nav-link disabled">Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -204,19 +214,51 @@
         </div>
     </div>
 
-    <h4 id="scrollspyHeading3">Contact Us</h4>
+    <h4 id="scrollspyHeading3" class="align-center">Contact Us</h4>
     <div class="form">
         <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <label for="exampleFormControlInput1" class="form-label">Email:</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
         </div>
         <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <label for="exampleFormControlTextarea1" class="form-label">Request:</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
+        <div class="btn-send">
+            <button type="button" class="btn btn-success">Send &nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+                <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"/>
+              </svg></button>
+        </div>
+
     </div>
-    <h4 id="scrollspyHeading4">Fourth heading</h4>
-    <p>...</p>
+
+
+
+
+
+    <div class="row footer">
+        <div class="col-md-4 ">
+            <h4>About us</h4>
+            <p>Designed and built with all the love for me.</p>
+        </div>
+        <div class="col-md-4">
+            <h5>More Products</h5>
+            <ul>
+                <li><a href="/">Coffee</a></li>
+                <li><a href="/">Tea</a></li>
+                <li><a href="/">Milk</a></li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <h5>Locations</h5>
+            <ul>
+                <li><a href="/">Vintage</a></li>
+                <li><a href="/">Polanco</a></li>
+                <li><a href="/">Venture</a></li>
+            </ul>
+        </div>
+
+    </div>
 
 
     <script src="js/main.js"></script>
